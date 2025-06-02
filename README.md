@@ -27,3 +27,42 @@ Or if you've already cloned it, initialize the submodules like this:
 git submodule update --init --recursive
 ```
 Feel free to follow along as I work through each project, refine my skills, and complete the certification. ✌️
+
+## Workflow Template
+
+I'll be using this workflow to maintain git modules as I work through this certification
+
+``` bash
+cd fccfscert
+mkdir new-project
+cd new-project
+git init
+# create files
+git add .
+git commit -m "Initial commit"
+gh repo create mjcaldev/new-project --public --source=. --push
+cd ..
+git submodule add https://github.com/mjcaldev/new-project.git new-project
+git add .gitmodules new-project
+git commit -m "Add new-project as submodule"
+git push
+```
+
+I will have to update both the submodule and main repo for each change
+
+```bash
+cd fccfscert/new-project
+# make changes
+git add .
+git commit -m "Update something"
+git push
+
+cd ..
+git add new-project
+git commit -m "Update submodule pointer to latest commit"
+git push
+
+```
+
+As this is very "non-DRY", I will make a script to automate later (or maybe attempt monorepo or Git subtrees restructure?)
+
