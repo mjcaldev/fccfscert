@@ -10,3 +10,6 @@
 [submodule "travel-agency"]
 	path = travel-agency
 	url = https://github.com/mjcaldev/travel-agency.git
+[submodule "event-hub"]
+	path = event-hub
+	url = https://github.com/mjcaldev/event-hub.git
