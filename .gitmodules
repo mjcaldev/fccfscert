@@ -1,0 +1,12 @@
+[submodule "recipe-page"]
+	path = recipe-page
+	url = https://github.com/mjcaldev/recipe-page.git
+[submodule "sample-blog"]
+	path = sample-blog
+	url = https://github.com/mjcaldev/sample-blog.git
+[submodule "video-comp"]
+	path = video-comp
+	url = https://github.com/mjcaldev/video-comp.git
+[submodule "travel-agency"]
+	path = travel-agency
+	url = https://github.com/mjcaldev/travel-agency.git
