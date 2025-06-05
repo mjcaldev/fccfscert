@@ -13,3 +13,6 @@
 [submodule "event-hub"]
 	path = event-hub
 	url = https://github.com/mjcaldev/event-hub.git
+[submodule "hotel-nps-survey"]
+	path = hotel-nps-survey
+	url = https://github.com/mjcaldev/hotel-nps-survey.git
