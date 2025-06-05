@@ -18,14 +18,29 @@ GITHUB_USERNAME="mjcaldev"  # Change if needed
 
 echo "🚀 Creating new FCC project: $PROJECT_NAME"
 
-# 1. Create project directory
+# 1. Create project directory and files
 mkdir "$PROJECT_NAME"
 cd "$PROJECT_NAME"
+touch index.html styles.css
 
-# 2. Initialize git and make initial commit
+# Optional: Add boilerplate to index.html
+cat <<EOL > index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>${PROJECT_NAME^}</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>${PROJECT_NAME^}</h1>
+    <p>Welcome to the project.</p>
+  </body>
+</html>
+EOL
+
+# 2. Initialize git and commit
 git init
-touch README.md
-echo "# $PROJECT_NAME" > README.md
 git add .
 git commit -m "Initial commit for $PROJECT_NAME"
 
