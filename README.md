@@ -64,5 +64,4 @@ git push
 
 ```
 
-As this is very "non-DRY", I will make a script to automate later (or maybe attempt monorepo or Git subtrees restructure?)
-
+## As this is very "non-DRY", I made a script to automate (see add-fcc-project.sh)
