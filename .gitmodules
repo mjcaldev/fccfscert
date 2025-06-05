@@ -16,3 +16,6 @@
 [submodule "hotel-nps-survey"]
 	path = hotel-nps-survey
 	url = https://github.com/mjcaldev/hotel-nps-survey.git
+[submodule "table-sample"]
+	path = table-sample
+	url = https://github.com/mjcaldev/table-sample.git
