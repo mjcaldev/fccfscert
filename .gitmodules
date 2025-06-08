@@ -25,3 +25,6 @@
 [submodule "checkout-page"]
 	path = checkout-page
 	url = https://github.com/mjcaldev/checkout-page.git
+[submodule "movie-review"]
+	path = movie-review
+	url = https://github.com/mjcaldev/movie-review.git
