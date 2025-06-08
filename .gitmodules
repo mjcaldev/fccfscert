@@ -22,3 +22,6 @@
 [submodule "book-catalog"]
 	path = book-catalog
 	url = https://github.com/mjcaldev/book-catalog.git
+[submodule "checkout-page"]
+	path = checkout-page
+	url = https://github.com/mjcaldev/checkout-page.git
