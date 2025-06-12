@@ -34,3 +34,6 @@
 [submodule "cafe-menu"]
 	path = cafe-menu
 	url = https://github.com/mjcaldev/cafe-menu.git
+[submodule "biz-card"]
+	path = biz-card
+	url = https://github.com/mjcaldev/biz-card.git
