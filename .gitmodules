@@ -31,3 +31,6 @@
 [submodule "media-player"]
 	path = media-player
 	url = https://github.com/mjcaldev/media-player.git
+[submodule "cafe-menu"]
+	path = cafe-menu
+	url = https://github.com/mjcaldev/cafe-menu.git
