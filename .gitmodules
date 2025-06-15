@@ -37,3 +37,6 @@
 [submodule "biz-card"]
 	path = biz-card
 	url = https://github.com/mjcaldev/biz-card.git
+[submodule "todo-list"]
+	path = todo-list
+	url = https://github.com/mjcaldev/todo-list.git
