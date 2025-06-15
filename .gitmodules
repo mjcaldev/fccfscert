@@ -40,3 +40,6 @@
 [submodule "todo-list"]
 	path = todo-list
 	url = https://github.com/mjcaldev/todo-list.git
+[submodule "blog-card"]
+	path = blog-card
+	url = https://github.com/mjcaldev/blog-card.git
