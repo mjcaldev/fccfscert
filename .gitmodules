@@ -43,3 +43,6 @@
 [submodule "blog-card"]
 	path = blog-card
 	url = https://github.com/mjcaldev/blog-card.git
+[submodule "event-flyer"]
+	path = event-flyer
+	url = https://github.com/mjcaldev/event-flyer.git
