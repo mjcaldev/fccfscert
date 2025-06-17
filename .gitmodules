@@ -46,3 +46,6 @@
 [submodule "event-flyer"]
 	path = event-flyer
 	url = https://github.com/mjcaldev/event-flyer.git
+[submodule "greeting-card"]
+	path = greeting-card
+	url = https://github.com/mjcaldev/greeting-card.git
