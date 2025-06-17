@@ -49,3 +49,6 @@
 [submodule "greeting-card"]
 	path = greeting-card
 	url = https://github.com/mjcaldev/greeting-card.git
+[submodule "job-app"]
+	path = job-app
+	url = https://github.com/mjcaldev/job-app.git
