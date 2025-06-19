@@ -52,3 +52,6 @@
 [submodule "job-app"]
 	path = job-app
 	url = https://github.com/mjcaldev/job-app.git
+[submodule "css-markers"]
+	path = css-markers
+	url = https://github.com/mjcaldev/css-markers.git
