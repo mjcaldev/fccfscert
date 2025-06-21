@@ -58,3 +58,6 @@
 [submodule "color-grid"]
 	path = color-grid
 	url = https://github.com/mjcaldev/color-grid.git
+[submodule "confidential-email"]
+	path = confidential-email
+	url = https://github.com/mjcaldev/confidential-email.git
